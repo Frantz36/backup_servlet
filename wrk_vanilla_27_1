@@ -1,0 +1,19 @@
+Running 35s test @ http://128.105.144.237:8080/servlet-is/interserver?ine=4444444444
+  10 threads and 50 connections
+  Thread calibration: mean lat.: 194.071ms, rate sampling interval: 1041ms
+  Thread calibration: mean lat.: 205.376ms, rate sampling interval: 1091ms
+  Thread calibration: mean lat.: 203.831ms, rate sampling interval: 1097ms
+  Thread calibration: mean lat.: 206.863ms, rate sampling interval: 1082ms
+  Thread calibration: mean lat.: 202.011ms, rate sampling interval: 1072ms
+  Thread calibration: mean lat.: 204.768ms, rate sampling interval: 1055ms
+  Thread calibration: mean lat.: 212.377ms, rate sampling interval: 1128ms
+  Thread calibration: mean lat.: 218.004ms, rate sampling interval: 1138ms
+  Thread calibration: mean lat.: 209.655ms, rate sampling interval: 1100ms
+  Thread calibration: mean lat.: 219.910ms, rate sampling interval: 1140ms
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.00s     1.45s    5.08s    81.71%
+    Req/Sec    16.06     13.90    58.00     63.51%
+  6133 requests in 35.04s, 160.08MB read
+  Socket errors: connect 0, read 0, write 0, timeout 125
+Requests/sec:    175.05
+Transfer/sec:      4.57MB
