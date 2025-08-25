@@ -1,19 +1,18 @@
 Running 35s test @ http://128.105.144.237:8080/servlet-is/interserver?ine=4444444444
   10 threads and 50 connections
-  Thread calibration: mean lat.: 138.566ms, rate sampling interval: 509ms
-  Thread calibration: mean lat.: 146.364ms, rate sampling interval: 514ms
-  Thread calibration: mean lat.: 145.310ms, rate sampling interval: 517ms
-  Thread calibration: mean lat.: 149.381ms, rate sampling interval: 513ms
-  Thread calibration: mean lat.: 149.230ms, rate sampling interval: 512ms
-  Thread calibration: mean lat.: 151.905ms, rate sampling interval: 525ms
-  Thread calibration: mean lat.: 152.446ms, rate sampling interval: 516ms
-  Thread calibration: mean lat.: 156.472ms, rate sampling interval: 539ms
-  Thread calibration: mean lat.: 158.477ms, rate sampling interval: 545ms
-  Thread calibration: mean lat.: 160.146ms, rate sampling interval: 561ms
+  Thread calibration: mean lat.: 700.987ms, rate sampling interval: 2383ms
+  Thread calibration: mean lat.: 726.847ms, rate sampling interval: 2598ms
+  Thread calibration: mean lat.: 623.659ms, rate sampling interval: 2328ms
+  Thread calibration: mean lat.: 614.116ms, rate sampling interval: 2336ms
+  Thread calibration: mean lat.: 700.049ms, rate sampling interval: 2535ms
+  Thread calibration: mean lat.: 614.176ms, rate sampling interval: 2326ms
+  Thread calibration: mean lat.: 659.897ms, rate sampling interval: 2394ms
+  Thread calibration: mean lat.: 751.265ms, rate sampling interval: 2539ms
+  Thread calibration: mean lat.: 669.810ms, rate sampling interval: 2332ms
+  Thread calibration: mean lat.: 665.987ms, rate sampling interval: 2373ms
   Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency     2.02s     2.69s    7.94s    75.85%
-    Req/Sec    15.48     14.30    72.00     66.03%
-  6072 requests in 35.02s, 158.49MB read
-  Socket errors: connect 0, read 0, write 0, timeout 146
-Requests/sec:    173.38
-Transfer/sec:      4.53MB
+    Latency     6.40s     2.73s   11.10s    47.84%
+    Req/Sec    13.03      6.61    25.00     67.01%
+  5028 requests in 35.08s, 269.21MB read
+Requests/sec:    143.32
+Transfer/sec:      7.67MB
